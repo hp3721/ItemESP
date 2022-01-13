@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "itemesp",
+  "version": "${version}",
+  "name": "ItemESP",
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.red.itemesp.ItemESPClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
