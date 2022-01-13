@@ -156,7 +156,7 @@ public class ItemESPClient implements ClientModInitializer {
 
     public static void drawOutlinedBox(Box bb, MatrixStack matrixStack)
     {
-        Matrix4f matrix = matrixStack.peek().getPositionMatrix();
+        Matrix4f matrix = matrixStack.peek().getModel();
         BufferBuilder bufferBuilder = Tessellator.getInstance().getBuffer();
         RenderSystem.setShader(GameRenderer::getPositionShader);
 
